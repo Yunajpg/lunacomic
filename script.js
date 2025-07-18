@@ -1,11 +1,11 @@
 const projectList = document.getElementById("projectList");
 const projects = [
-  { category: "graphic", title: "南臺灣®- 品牌視覺識別設計", img: "https://i.meee.com.tw/ilzLmCQ.png" , link: "https://www.behance.net/gallery/213101557/_" },
-  { category: "ui", title: "摳以購物品牌ui設計", img: "https://upload.cc/i1/2025/07/16/yPRL1q.png" , link: "https://www.behance.net/gallery/211713543/ui" },
-  { category: "graphic", title: "芒果農創玫瑰綠柏園觀光工廠｜展區大圖、菜單及攝影｜", img: "https://upload.cc/i1/2025/07/16/9oeKCq.png" , link: "https://www.behance.net/gallery/213366925/_" },
-    { category: "graphic", title: "六一睡眠館｜品牌估價單封套與名片", img: "https://upload.cc/i1/2025/07/16/XBt9EU.png" , link: "https://www.behance.net/gallery/213268163/_" },
-        { category: "graphic", title: "不只是沙拉｜店面大型圖像與菜單設計", img: "https://upload.cc/i1/2025/07/16/C9OhDM.png" , link: "https://www.behance.net/gallery/213279815/_" },
-          { category: "graphic", title: "南台灣網路電商廣告素材圖", img: "https://upload.cc/i1/2025/07/16/Q9rs4k.png" , link: "https://www.behance.net/gallery/213449961/_" }
+  { category: "graphic", title: "南臺灣®- 品牌視覺識別設計", img: "images/nantaiwan.png" , link: "https://www.behance.net/gallery/213101557/_" },
+  { category: "ui", title: "摳以購物品牌ui設計", img: "images/coin.png" , link: "https://www.behance.net/gallery/211713543/ui" },
+  { category: "graphic", title: "芒果農創玫瑰綠柏園觀光工廠｜展區大圖、菜單及攝影｜", img: "images/greenpark.png" , link: "https://www.behance.net/gallery/213366925/_" },
+    { category: "graphic", title: "六一睡眠館｜品牌估價單封套與名片", img: "images/61.png" , link: "https://www.behance.net/gallery/213268163/_" },
+        { category: "graphic", title: "不只是沙拉｜店面大型圖像與菜單設計", img: "images/salad.png" , link: "https://www.behance.net/gallery/213279815/_" },
+          { category: "graphic", title: "南台灣網路電商廣告素材圖", img: "images/ecommerce.png" , link: "https://www.behance.net/gallery/213449961/_" }
   
 ];
 
