@@ -1,0 +1,198 @@
+/*字體*/
+@import url('https://fonts.googleapis.com/css2?family=Huninn&family=Noto+Sans+TC:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+nav,h1, h2, h3, h4, h5, h6,p{
+   font-family: "Huninn" , 'Poppins', sans-serif;
+   font-weight: 400;
+   font-style: normal;
+}
+
+body, html {
+  font-size: 14px;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* 清單 */
+ul{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; 
+  gap: 16px; 
+  padding: 0;
+  list-style: none;
+  margin: 20px 0;
+  font-weight: bold;
+ 
+}
+
+ul li:not(.nav-item){
+  background-color: #f0f0f0;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+/* 手機版 768px 以下改為置中 */
+@media (max-width: 768px) {
+  ul {
+    justify-content: center;
+  }
+
+  ul li:not(.nav-item) {
+    text-align: center;
+  }
+}
+
+/* 手機版間距變寬 */
+@media (max-width: 768px) {
+  #experience .row {
+    flex-direction: column !important; 
+    align-items: center;
+  }
+  
+ /* 增加下方間距 */
+  #experience .col-md-4 {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+}
+
+
+.logo-img {
+  height: 50px; 
+  width: auto;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+.hero {
+  max-height: 700px;
+  background: url('https://i.meee.com.tw/bm0McUC.png') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end
+  color: black;
+  position: relative;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 30px;
+  font-size: 2rem;
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(10px); }
+}
+
+.about img {
+  max-width:45%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+/* 手機版再小一點 */
+@media (max-width: 768px) {
+  .about img {
+    max-width: 50%;
+    max-height: 300px;
+  }
+}
+
+
+.portfolio .card {
+  margin-bottom: 1.5rem;
+}
+
+.contact input,
+.contact textarea {
+  border-radius: 0.5rem;
+}
+
+header .navbar {
+  background-color: white !important;
+}
+
+section {
+  padding: 80px 0; 
+}
+
+/*primary按鈕設定*/
+.btn-primary {
+  background-color: #000 !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+.btn-primary:hover {
+  background-color: #555 !important;
+}
+
+/*btn-outline-primary按鈕設定*/
+.btn-outline-primary {
+  color: #000 !important;
+  border-color: #000 !important;
+  background-color: transparent;
+}
+
+.btn-outline-primary:hover {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+/* 手機版漢堡 */
+.navbar-toggler {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+.spacer {
+  height: 30px;
+}
+
+
+/*回到最上按鈕*/
+#backToTop {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  display: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 18px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  z-index: 999;
+}
+
+/*回到最上按鈕 漸顯 + hover*/
+#backToTop:hover {
+  background-color: #0d6efd;
+  color: white;
+}
+
+/*手機漢堡選單對齊*/
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+  }
+}
+
+/*js行距*/
+#projectList .col-md-6 {
+  margin-bottom: 2rem; 
+}
